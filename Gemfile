@@ -4,3 +4,6 @@ gem 'thin'
 gem 'sinatra'
 gem 'haml'
 gem 'coffee-script'
+gem 'rack-coffee'
+gem 'sass'
+

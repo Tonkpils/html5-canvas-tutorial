@@ -4,8 +4,10 @@
   %head
     %title Canvas Tutorial
     %script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
-
+    %link(rel="stylesheet" href="/stylesheets/application.css")
   %body
-    %h1 Canvas Tutorial
-    %p
-      This is a placeholder for what will be a canvas
+    %canvas#canvas-sample(width="425" height="400")
+    .kineticjs-content#kinetic-sample
+
+    %script(src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.4.0.min.js")
+    %script(src="/javascripts/application.js" type="text/javascript")
